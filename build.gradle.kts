@@ -24,17 +24,15 @@ java {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.2.0")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
     implementation("com.just-ai.jaicf:core:$jaicf")
     implementation("com.just-ai.jaicf:jaicp:$jaicf")
     implementation("com.just-ai.jaicf:caila:$jaicf")
-    implementation("com.just-ai.jaicf:mongo:$jaicf")
 
     implementation("javax.servlet:javax.servlet-api:3.1.0")
-    implementation("io.micrometer:micrometer-registry-prometheus:1.7.4")
 }
 
 tasks {
