@@ -20,7 +20,7 @@ bot:
 2. Run `docker build -t app .`
 3. Run `docker run -p 8080:8080 -t app`
 
-#How to use
+# How to use
 1. Go to https://app.jaicp.com
 2. Create Jaicf project
 3. Channels -> add chanel -> ChatWidget
