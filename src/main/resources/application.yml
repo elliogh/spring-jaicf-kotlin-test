@@ -24,6 +24,6 @@ logging:
     "org.springframework": warn
 
 bot:
-  accessToken: 6107abb0-51b2-44e2-bdfb-27ca3792e163
+  accessToken: ${JAICP_API_TOKEN}
   helloImageUrl: "https://media.giphy.com/media/ICOgUNjpvO0PC/source.gif"
   byeImageUrl: "https://media.giphy.com/media/EE185t7OeMbTy/source.gif"
