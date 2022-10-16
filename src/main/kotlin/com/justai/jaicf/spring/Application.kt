@@ -11,5 +11,7 @@ import org.springframework.boot.runApplication
 class Application
 
 fun main(args: Array<String>) {
+    System.setProperty("spring.config.location",
+        "classpath:/application.yml,classpath:/dev.application.yml,optional:classpath:/local.application.yml")
     runApplication<Application>(*args)
 }

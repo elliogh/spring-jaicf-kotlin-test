@@ -1,2 +1,2 @@
-rootProject.name = "jaicf-jaicp-spring-template"
+rootProject.name = "spring-jaicf-kotlin-test"
 

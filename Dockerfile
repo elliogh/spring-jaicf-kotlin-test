@@ -1,6 +1,11 @@
 FROM openjdk:11-jdk-slim
 
-ENTRYPOINT ["sh", "/opt/jaicf/run.sh"]
+VOLUME /tmp
 
-ADD build/libs/app.jar /opt/jaicf/app.jar
-ADD docker/app/run.sh /opt/jaicf
+ARG JAR_FILE=build/libs/app.jar
+
+ADD ${JAR_FILE} app.jar
+COPY answers.csv /
+
+ENTRYPOINT ["java","-jar","/app.jar"]
+

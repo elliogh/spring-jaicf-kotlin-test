@@ -1,7 +1,3 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost/jaicf-jaicp-spring-template
-
   profiles:
     active: "dev"
