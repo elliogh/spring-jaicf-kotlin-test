@@ -14,6 +14,8 @@ val logback = "1.2.3"
 
 repositories {
     mavenCentral()
+    jcenter()
+    maven(uri("https://jitpack.io"))
 }
 
 java {
@@ -31,6 +33,7 @@ dependencies {
     implementation("com.just-ai.jaicf:core:$jaicf")
     implementation("com.just-ai.jaicf:jaicp:$jaicf")
     implementation("com.just-ai.jaicf:caila:$jaicf")
+    implementation("com.just-ai.jaicf:telegram:$jaicf")
 
     implementation("javax.servlet:javax.servlet-api:3.1.0")
 }
