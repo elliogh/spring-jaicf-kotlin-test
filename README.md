@@ -27,3 +27,8 @@ bot:
 4. Settings -> copy API-token
 5. Paste to `local.application.yml`
 6. Run application
+
+# Teleggram
+
+You can try bot in Telegram
+`https://t.me/JAICF_Spring_Kotlin_test_bot`
